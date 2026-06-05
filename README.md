@@ -1,6 +1,6 @@
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Hi%20👋%20I'm%20P%20T%20Mounika!&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Full%20Stack%20%7C%20ML%20%7C%20Deep%20Learning%20%7C%20Gen%20AI&descAlignY=55&descSize=16)
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Hi%20👋%20I'm%20P%20T%20Mounika!&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Full%20Stack%20%7C%20ML%20%7C%20Deep%20Learning%20%7C%20Gen%20AI%20%7C%20LLM%20Research&descAlignY=55&descSize=16)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=mounika-200622&color=blueviolet&style=flat-square&label=Profile+Views)
 
@@ -10,12 +10,14 @@
 
 ## 👩‍💻 About Me
 
-I'm a second-year Computer Science student at PES University with a passion for **building things that matter**. My work spans full-stack web development, machine learning, and deep learning — from MERN apps to CNN-based diagnostic models. I'm deeply curious about **LLMs and Generative AI**, sitting at the intersection where code meets intelligence.
+I'm a second-year Computer Science student at PES University with a passion for **building things that matter**. My work spans full-stack web development, machine learning, deep learning, and LLM research — from MERN apps to CNN-based diagnostic models to AI safety systems. I'm deeply curious about **LLMs, Generative AI, and Agentic Systems**, sitting at the intersection where code meets intelligence.
 
 - 🎓 2nd Year BTech CSE @ PES University
-- 🤖 Built deep learning models, full-stack apps & ML systems
-- 🔬 Interests: Full Stack · ML/DL · Data Analysis · Gen AI
-- 🔭 Currently exploring: LLMs, Generative AI, Agentic Systems
+- 🏢 **Intern @ CAVE Labs** — Building an AI-Powered Physiological Digital Twin (VitalHealth)
+- 🏢 **Intern @ PESU Venture Labs (PVL)** — Researching LLM Hallucination Detection using Internal Model States
+- 🤖 Built deep learning models, full-stack apps, ML systems & LLM research tools
+- 🔬 Interests: Full Stack · ML/DL · Data Analysis · Gen AI · AI Safety · NLP Research
+- 🔭 Currently exploring: LLMs, Generative AI, Agentic Systems, Mechanistic Interpretability
 - 💡 I like finding intelligence in data and building systems around it
 
 ---
@@ -32,9 +34,11 @@ I'm a second-year Computer Science student at PES University with a passion for 
 **🌐 Full Stack Development**
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 
 **🤖 ML / AI / Deep Learning**
 
@@ -42,6 +46,15 @@ I'm a second-year Computer Science student at PES University with a passion for 
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+
+**🧠 LLM / NLP / Gen AI**
+
+![LLaMA](https://img.shields.io/badge/LLaMA--3-0467DF?style=for-the-badge&logo=meta&logoColor=white)
+![Mistral](https://img.shields.io/badge/Mistral--7B-FF7000?style=for-the-badge&logo=mistral&logoColor=white)
+![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![Gradio](https://img.shields.io/badge/Gradio-FF7C00?style=for-the-badge&logo=gradio&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge&logo=openai&logoColor=white)
 
 **📊 Data & Tools**
 
@@ -51,6 +64,22 @@ I'm a second-year Computer Science student at PES University with a passion for 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+---
+
+## 💼 Internships
+
+### 🏢 CAVE Labs — AI Research Intern
+Working on **VitalHealth**, an AI-powered physiological digital twin platform. The system couples a React Native mobile app with a BioGears C++ physiological simulation engine to create a real-time, personalized computational model of the human body. When a user logs a meal, workout, medication, or sleep event, the system runs a full organ-system-level simulation — computing second-by-second changes in heart rate, blood glucose, blood pressure, oxygen saturation, respiratory rate, and more.
+
+`React Native` `FastAPI` `BioGears` `Node.js` `Python 3.10+` `Expo` `REST APIs` `Physiological Simulation`
+
+---
+
+### 🏢 PESU Venture Labs (PVL) — ML Research Intern
+Working on **"Can LLMs Detect Their Own Lies?"** — a real-time hallucination detection system that reads a model's internal hidden states rather than its output. The core hypothesis: when an LLM hallucinates, measurable signals exist within its internal layers even when the output sounds fully confident. The system feeds 2000+ factual questions to LLaMA-3 / Mistral-7B, extracts hidden state vectors at every layer using HuggingFace Transformers, trains a lightweight probing classifier to detect hallucinations before the answer is shown to the user, and evaluates against existing output-level detection methods.
+
+`LLaMA-3` `Mistral-7B` `HuggingFace Transformers` `Scikit-learn` `FastAPI` `Gradio` `RAGAS` `NLP` `AI Safety` `Mechanistic Interpretability`
 
 ---
 
