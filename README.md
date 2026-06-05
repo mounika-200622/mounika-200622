@@ -1,6 +1,14 @@
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Hi%20👋%20I'm%20P%20T%20Mounika!&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Full%20Stack%20%7C%20ML%20%7C%20Deep%20Learning%20%7C%20Gen%20AI%20%7C%20LLM%20Research&descAlignY=55&descSize=16)
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=header)
+
+<br/>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=36&duration=3000&pause=1000&color=A855F7&center=true&vCenter=true&width=600&height=70&lines=Hi+%F0%9F%91%8B+I'm+P+T+Mounika!)](https://git.io/typing-svg)
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2500&pause=800&color=22D3EE&center=true&vCenter=true&width=700&height=45&lines=Full+Stack+Developer;ML+%26+Deep+Learning+Engineer;LLM+Researcher+%40+PVL;Building+Digital+Twins+%40+CAVE+Labs;Gen+AI+%26+Agentic+Systems+Explorer)](https://git.io/typing-svg)
+
+<br/>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=mounika-200622&color=blueviolet&style=flat-square&label=Profile+Views)
 
