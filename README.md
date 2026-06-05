@@ -69,21 +69,28 @@ I'm a second-year Computer Science student at PES University with a passion for 
 
 ## 💼 Internships
 
-### 🏢 CAVE Labs — AI Research Intern
+### 🏢 CAVE Labs — Intern
 Working on **VitalHealth**, an AI-powered physiological digital twin platform. The system couples a React Native mobile app with a BioGears C++ physiological simulation engine to create a real-time, personalized computational model of the human body. When a user logs a meal, workout, medication, or sleep event, the system runs a full organ-system-level simulation — computing second-by-second changes in heart rate, blood glucose, blood pressure, oxygen saturation, respiratory rate, and more.
 
 `React Native` `FastAPI` `BioGears` `Node.js` `Python 3.10+` `Expo` `REST APIs` `Physiological Simulation`
 
 ---
 
-### 🏢 PESU Venture Labs (PVL) — ML Research Intern
-Working on **"Can LLMs Detect Their Own Lies?"** — a real-time hallucination detection system that reads a model's internal hidden states rather than its output. The core hypothesis: when an LLM hallucinates, measurable signals exist within its internal layers even when the output sounds fully confident. The system feeds 2000+ factual questions to LLaMA-3 / Mistral-7B, extracts hidden state vectors at every layer using HuggingFace Transformers, trains a lightweight probing classifier to detect hallucinations before the answer is shown to the user, and evaluates against existing output-level detection methods.
+### 🏢 PESU Venture Labs (PVL) — Intern
+Working on **Speculative Execution and Contrastive Decoding for Distributed LLM Inference**. LLM serving is painfully slow due to the autoregressive generation process — one word at a time, with GPU memory checked at every single step. The solution: building a custom inference engine where a tiny, highly efficient "draft" model guesses the next 5–10 tokens instantly, and the massive "target" model evaluates all guesses in parallel in a single forward pass (Speculative Decoding). Additionally implementing Contrastive Decoding to mathematically penalize the probability of hallucinated or repetitive tokens — ensuring high-quality reasoning without sacrificing the 5x speedup. Venture potential: B2B enterprise infrastructure enabling companies to host open-source models like LLaMA-3 internally at 5x speed and 1/5th the compute cost of standard deployments.
 
-`LLaMA-3` `Mistral-7B` `HuggingFace Transformers` `Scikit-learn` `FastAPI` `Gradio` `RAGAS` `NLP` `AI Safety` `Mechanistic Interpretability`
+`Speculative Decoding` `Contrastive Decoding` `vLLM` `LLaMA-3` `KV-Cache` `PagedAttention` `Autoregressive Generation` `Distributed Inference` `FastAPI` `Python`
 
 ---
 
 ## 🚀 Projects
+
+### 🧠 Can LLMs Detect Their Own Lies? — Real-Time Hallucination Detection
+Building a **real-time hallucination detection system** that reads a model's internal hidden states rather than its output — like a polygraph for LLMs. The core hypothesis: when an LLM hallucinates, measurable signals exist within its internal layers even when the output sounds fully confident. The pipeline feeds 2000+ factual questions to LLaMA-3 / Mistral-7B, extracts hidden state vectors at every layer using HuggingFace Transformers, trains a lightweight probing classifier to predict hallucinations before the answer is shown to the user, and evaluates against output-level detection baselines. Directly applicable to healthcare, law, education, and finance.
+
+`LLaMA-3` `Mistral-7B` `HuggingFace Transformers` `Scikit-learn` `FastAPI` `Gradio` `RAGAS` `NLP` `AI Safety` `Mechanistic Interpretability`
+
+---
 
 ### 🔬 Automated Anemia Detection using Deep Learning
 Built a **CNN-based model (DenseNet121)** that detects anemia from RBC blood smear images with high accuracy. Integrated a **Visual Question Answering (VQA)** module to generate clinician-level diagnostic responses from uploaded microscopic images — simulating real-world medical AI decision support.
