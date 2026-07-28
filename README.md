@@ -14,7 +14,6 @@ I'm a second-year Computer Science student at PES University with a passion for 
 
 - 🎓 2nd Year BTech CSE @ PES University
 - 🏢 **Intern @ CAVE Labs** — Building an AI-Powered Physiological Digital Twin (VitalHealth)
-- 🏢 **Intern @ PESU Venture Labs (PVL)** — Researching LLM Hallucination Detection using Internal Model States
 - 🤖 Built deep learning models, full-stack apps, ML systems & LLM research tools
 - 🔬 Interests: Full Stack · ML/DL · Data Analysis · Gen AI · AI Safety · NLP Research
 - 🔭 Currently exploring: LLMs, Generative AI, Agentic Systems, Mechanistic Interpretability
@@ -76,14 +75,14 @@ Working on **VitalHealth**, an AI-powered physiological digital twin platform. T
 
 ---
 
-### 🏢 PESU Venture Labs (PVL) — Intern
-Working on **Speculative Execution and Contrastive Decoding for Distributed LLM Inference**. LLM serving is painfully slow due to the autoregressive generation process — one word at a time, with GPU memory checked at every single step. The solution: building a custom inference engine where a tiny, highly efficient "draft" model guesses the next 5–10 tokens instantly, and the massive "target" model evaluates all guesses in parallel in a single forward pass (Speculative Decoding). Additionally implementing Contrastive Decoding to mathematically penalize the probability of hallucinated or repetitive tokens — ensuring high-quality reasoning without sacrificing the 5x speedup. Venture potential: B2B enterprise infrastructure enabling companies to host open-source models like LLaMA-3 internally at 5x speed and 1/5th the compute cost of standard deployments.
+## 🚀 Projects
 
-`Speculative Decoding` `Contrastive Decoding` `vLLM` `LLaMA-3` `KV-Cache` `PagedAttention` `Autoregressive Generation` `Distributed Inference` `FastAPI` `Python`
+### ⚖️ Tribunal — Adversarial Multi-Agent Fact-Checking for AI Output
+Built a system that fact-checks AI-generated claims through an adversarial panel instead of a single verifier: four prosecutor agents each attack a claim through one lens, a defense agent argues honestly for it, and a judge rules with a named failure mode and calibrated confidence — all streamed live via server-sent events. Benchmarked against single-verifier and sequential-checker baselines on a 28-claim gold set: 96.4% overall accuracy, catching 100% of false claims (vs. 15–25% for the baselines), and held firm against an 8-vector prompt-injection suite with zero verdicts flipped.
+
+`Next.js` `TypeScript` `Tailwind` `Groq (LLaMA 3.3 70B)` `OpenAI GPT-5.6` `Tavily` `Server-Sent Events`
 
 ---
-
-## 🚀 Projects
 
 ### 🧠 Can LLMs Detect Their Own Lies? — Real-Time Hallucination Detection
 Building a **real-time hallucination detection system** that reads a model's internal hidden states rather than its output — like a polygraph for LLMs. The core hypothesis: when an LLM hallucinates, measurable signals exist within its internal layers even when the output sounds fully confident. The pipeline feeds 2000+ factual questions to LLaMA-3 / Mistral-7B, extracts hidden state vectors at every layer using HuggingFace Transformers, trains a lightweight probing classifier to predict hallucinations before the answer is shown to the user, and evaluates against output-level detection baselines. Directly applicable to healthcare, law, education, and finance.
